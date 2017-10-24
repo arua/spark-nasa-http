@@ -1,6 +1,6 @@
 import re
 from pyspark import SparkContext, SparkConf
-conf = SparkConf().setAppName('spark_semantix').setMaster('local')
+conf = SparkConf().setAppName('nasahttp').setMaster('local')
 sc = SparkContext(conf=conf)
 
 def is404(s):
